@@ -1,0 +1,41 @@
+<!-- home.page.html -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+   Easy-money
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <img src="img/logo.png" alt="">
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nom et Prénom</ion-label>
+      <ion-input [(ngModel)]="nomPrenom" name="nomPrenom" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Adresse</ion-label>
+      <ion-input [(ngModel)]="adresse" name="adresse" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Numéro de téléphone</ion-label>
+      <ion-input [(ngModel)]="numero" name="numero" type="tel" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input [(ngModel)]="email" name="email" type="email" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input [(ngModel)]="motDePasse" name="motDePasse" type="password" required></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" (click)="afficherProfil()">INCRIPTION</ion-button>
+</ion-content>

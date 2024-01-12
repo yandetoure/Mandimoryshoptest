@@ -1,0 +1,7 @@
+{
+  "name": "mandimoryshop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

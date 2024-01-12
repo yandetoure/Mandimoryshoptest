@@ -1,0 +1,26 @@
+
+.toolbar-container{
+    background-color: aliceblue;
+}
+.search{
+    margin-top: -10px;
+    margin-left: 40px;
+    width: 80%;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.grid{
+    display: flex;
+}
+ion-content {
+    --background: #f4f4f4; /* Change the background color as needed */
+  }
+  
+  ion-list ion-item {
+    cursor: pointer;
+  }
+.header{
+background-color: aqua;
+  }

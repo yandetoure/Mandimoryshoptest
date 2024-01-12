@@ -1,0 +1,31 @@
+<!-- profil.page.html -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Profil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-label>Nom et Prénom:</ion-label>
+      <ion-input [(ngModel)]="nomPrenom" disabled></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Adresse:</ion-label>
+      <ion-input [(ngModel)]="adresse" disabled></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Numéro de téléphone:</ion-label>
+      <ion-input [(ngModel)]="numero" disabled></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Email:</ion-label>
+      <ion-input [(ngModel)]="email" disabled></ion-input>
+    </ion-item>
+    <button><a href="auth">Modifier le profil</a> </button>
+  </ion-list>
+</ion-content>
+
